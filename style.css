@@ -38,7 +38,13 @@ a{
 .horizon-stick{
     width: 240px;
     height: 1px;
-    border-top: 2px solid #C4C4C4;;
+    border-top: 2px solid #C4C4C4;
+}
+.horizon-stick-card{
+    width: 90%;
+    height: 1px;
+    border-top: 2px solid #C4C4C4;
+    margin: 3%;
 }
 .lang-buttons{
     width: 20px;
@@ -195,6 +201,9 @@ a{
 .color-gold{
     color: gold;
 }
+.color-red{
+    color: red;
+}
 .suggestions{
     display: flex;
     justify-content: center;
@@ -234,7 +243,7 @@ a{
     width: 100%;
     height: 100px;
 }
-.all-hotels{
+.all-a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -293,4 +302,63 @@ a{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.actual-tours{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    top: 1500px;
+}
+.actual-tours-cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 430px;
+}
+.actual-tour-card{
+    background: #dbdbdb;
+    width: 330px;
+    height: 430px;
+}
+.actual-tour-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.35);
+    color: white;
+    width: 200px;
+    height: 30px;
+}
+.first-actual-tour-card-img{
+    width: 330px;
+    height: 220px;
+    background: url(img/tour1.jpg) no-repeat;
+    background-size: 100%;
+}
+.actual-tour-card-bottom-side{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.actual-tour-card-description{
+    display: flex;
+    align-items: flex-end;
+    width: 85%;
+    height: 80px;
+}
+.actual-tour-price{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.actual-tour-price-number{
+    height: 36px;
+}
+.actual-tour-price-days{
+    height: 36px;
 }
